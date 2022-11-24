@@ -2,6 +2,7 @@
 irá gerar erro de sintaxe "convert the identifier to snake case:".
 
 */ 
+
 fn main() {
     // para definir uma variável é necessário ': &tipo_da_variável =' caso contrário retornará erro!
     let _nome: &str = "Gabriel"; // let define a variável estática, ou seja, não mutável e impossibilitando uma nova atribuição ou troca de valores
