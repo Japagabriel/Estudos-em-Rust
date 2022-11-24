@@ -7,6 +7,7 @@ fn convert_to_int(data_input: & String) -> i32 {
     /*criamos a variável 'x' que irá pegar o valor de 'data_input' (string) e aplicar o método '.trim()' que irá 
     cortar a string no próximo ' ', logo utilizar o método .parse::<i32>() para converter esse valor em um tipo inteiro
     'i32' e por fim utilizará o '.unwrap()' para pegar o valor e se tiver um 'none' dentro do valor, irá retornar o erro.
+
     
     */    
     let x = data_input.trim().parse::<i32>().unwrap();
