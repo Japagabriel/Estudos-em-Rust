@@ -21,8 +21,9 @@ fn main(){
     // criou a variável 'number1' de tipo String e reservou um espaço de memória para ela. 
     let mut number1 = String::new();
     
-    /*irá fazer a entrada do usuário, '.read_line' irá alocar a entrada de usuário no 'number1', passando a 
-    caracteristica da váriável como mutável e .expect()irá fazer um tratamento de excessão para caso ocorra um erro.*/
+    /*'io::stdin()'irá fazer a entrada (input) do usuário, '.read_line' irá ler a linha,
+    passando a caracteristica da váriável como mutável e o nome dela 'number1' 
+    .expect()irá fazer um tratamento de excessão para caso ocorra um erro.*/
     io::stdin().read_line(&mut number1).expect("Erro ao ler Number1");
 
     let mut number2 = String::new();
